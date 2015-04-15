@@ -3,3 +3,35 @@
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+
+.header {
+  position: relative; /*To be able to use absolute on children*/
+  width: 100%;
+  background-color: #612dec;
+  color: #fff;
+}
+.main_header {
+  height: 40px;
+}
+.main_title {
+  font-size: 1.5em;
+}
+.main_title {
+  margin-top: 0;
+  margin-left: 70px;
+  padding-top: 5px;
+}
+
+.top_search {
+  position: absolute;
+  top: 7px;
+  left: 25%;
+  width: 50%;
+}
+.name_top {
+  position: absolute;
+  margin-top: 0;
+  top: 8px;
+  right: 5%;
+  font-size: 1.2em;
+}
