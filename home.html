@@ -33,14 +33,14 @@
 <div class="home_signup home_divs">
   <h1>Sign Up</h1>
   <form>
-    <input type="text" placeholder="First Name" />
-    <input type="text" placeholder="Last Name" />
+    <input id="first_name" class="signup_inputs" type="text" placeholder="First Name" />
+    <input id="last_name" class="signup_inputs" type="text" placeholder="Last Name" />
     <br />
-    <input type="email" placeholder="Your Email" />
+    <input type="email" class="signup_inputs" placeholder="Your Email" />
     <br />
-    <input type="password" placeholder="Your New Password" />
+    <input type="password" class="signup_inputs" placeholder="Your New Password" />
     <br />
-    <input type="password" placeholder="Confirm Your Password" />
+    <input type="password" class="signup_inputs" placeholder="Confirm Your Password" />
     <br />
     <p><strong>Birthday</strong></p>
     <select>
@@ -111,7 +111,12 @@
      
     </select>
     <br />
-    <button type="submit">Sign Up!</button>
+
+    <input type="radio" name="gender" /> Female
+    <input type="radio" name="gender" /> Male
+    <br />
+
+    <button id="signup_button" type="submit">Sign Up!</button>
   </form>
 </div>
 
