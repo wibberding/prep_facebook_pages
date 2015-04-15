@@ -1,0 +1,47 @@
+.home_title {
+  margin-left: 50px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.home_header {
+  position: relative; /*To be able to use absolute on children*/
+  width: 100%;
+  height: 80px;
+  background-color: #612dec;
+  color: #fff;
+
+}
+.home_header > p {
+  font-size: 3em;
+}
+
+.home_login {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.home_divs {
+  margin-top: 100px;
+  position: absolute;
+  
+  top: 0;
+  height: 300px; /*for testing*/
+}
+.home_info {
+  padding: 10%;
+  width: 55%;
+  left: 0;
+}
+.home_info li {
+  font-size: 1.5em;
+}
+
+.home_signup {
+  width: 45%;
+  right: 0;
+}
+
+.home_signup input {
+  margin: 5px;
+}
