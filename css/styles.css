@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  min-width: 912px;
 }
 
 .header {
@@ -10,15 +11,22 @@ body {
   background-color: #612dec;
   color: #fff;
 }
+.header_icon {
+  width: 30px;
+  margin-left: 90px;
+  margin-top: 5px;
+}
+}
 .main_header {
   height: 40px;
 }
 .main_title {
+  position: absolute;
   font-size: 1.5em;
-}
-.main_title {
+  display: inline;
+  top: 0px;
   margin-top: 0;
-  margin-left: 70px;
+  margin-left: 10px;
   padding-top: 5px;
 }
 
@@ -34,4 +42,114 @@ body {
   top: 8px;
   right: 5%;
   font-size: 1.2em;
+}
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.main_image_div {
+  position: relative;
+  margin: 0px auto 10px auto;
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  border: 2px solid black;
+
+}
+.nav {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  border-top: 2px solid black;
+}
+.user_pic {
+  width: 140px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  z-index: 45;
+}
+.main_image {
+  min-width:100%;
+}
+.nav_link {
+  float: left;
+  width: 100px;
+  height: 60px;
+  border-right: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  font-size: 1.3em;
+}
+.nav_margin {
+  margin-left: 190px;
+  border-left: 2px solid black;
+}
+.edit_profile {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.about_info {
+  width: 78%;
+  height: 600px;
+  margin-left: 10%;
+  font-size: 1.8em;
+  border: 2px solid black;
+  padding: 1%;
+}
+
+.basic_info {
+  float: left;
+  max-width: 40%;
+  margin-bottom: 100px;
+}
+
+.about_me {
+  float: right;
+  max-width: 40%;
+  margin-bottom: 100px;
+}
+.about_header {
+  width: 100%;
+  height: 60px;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 4px;
+}
+.friend_item {
+  float: left;
+  position: relative;
+  width: 335px;
+  height: 145px;
+  background-color: #ddd;
+  margin: 10px;
+}
+.friend_item img {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  width: 90px;
+}
+.friend_item a {
+  position: absolute;
+  top: 55px;
+  left: 140px;
+}
+.friend_item button {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #612dec;
+  color: white;
+  width: 70px;
+  height: 30px;
 }
