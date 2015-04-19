@@ -75,6 +75,18 @@ body {
   left: 20px;
   z-index: 45;
 }
+.profile_newsfeed .user_pic {
+  margin-left: 5%;
+  width: 70px;
+  position: static;
+
+}
+.active_friends .user_pic {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 55px;
+}
 .main_image {
   min-width:100%;
 }
@@ -157,4 +169,89 @@ body {
   color: white;
   width: 70px;
   height: 30px;
+}
+
+#left_column_newsfeed {
+  float: left;
+  width: 33%;
+  background-color: pink;
+
+}
+
+#right_column_newsfeed {
+  float: right;
+  width: 66%;
+  background-color: green;
+}
+
+#name_newsfeed_left {
+  position: absolute;
+  top: 59px;
+  left: 99px;
+  font-size: 1.3em;
+}
+
+#edit_newsfeed_left {
+  position: absolute;
+  top: 88px;
+  left: 130px;
+}
+
+#left_newsfeed h3 {
+  text-align: center;
+}
+
+.active_friends {
+  position: relative;
+  width: 275px;
+  height: 70px;
+}
+
+.name_post {
+  position: absolute;
+  top: 27px;
+  left: 67px;
+  font-size: 1.2em;
+}
+.date_post {
+  position: absolute;
+  top: 32px;
+  left: 67px;
+}
+
+.post {
+  position: relative;
+  margin: 5% 10% 5% 10%;
+  width: 80%;
+  height: 200px;
+  border: 2px solid #612dec;
+}
+.post textarea {
+  margin-left: 5%;
+  width: 90%;
+  height: 60px;
+}
+
+.comments {
+  position: absolute;
+  bottom: 0px;
+  min-height: 30px;
+  border-top: 2px solid #612dec;
+  width: 100%;
+}
+
+.post_header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  border-bottom: 1px solid #612dec;
+  padding: 5px;
+}
+
+#create_post textarea {
+  position: absolute;
+  top: 56px;
+  height: 87px;
 }
