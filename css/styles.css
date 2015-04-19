@@ -45,9 +45,10 @@ body {
 }
 .footer {
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 .main_image_div {
   position: relative;
@@ -124,6 +125,10 @@ body {
   text-align: center;
   border-bottom: 1px solid black;
   padding-bottom: 4px;
+}
+.about_header button {
+  background-color: #612dec;
+  color: white;
 }
 .friend_item {
   float: left;
